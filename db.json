@@ -1,0 +1,40 @@
+{
+  "reviews":[
+    {
+      "id": 1,
+      "userName": "Juan",
+      "profilePic": null,
+      "rating": 8,
+      "content": "muy bueno el juego",
+      "screenshots": [],
+      "gameId": 3498
+    },
+    {
+      "id": 2,
+      "userName": "Diego",
+      "profilePic": null,
+      "rating": 3,
+      "content": "malisimo, muchos rusos",
+      "screenshots": [],
+      "gameId": 4291
+    }
+  ],
+  "myGames":[
+    {
+      "id": 1,
+      "name": "Gran Theft Auto V",
+      "cover": null,
+      "gameId": 3498,
+      "platform": "PC", 
+      "isGameCompleted": false
+    }
+  ],
+  "profile":[
+    {
+      "userId":123,
+      "user":"Bob_007",
+      "profilePic":"https://en.wikipedia.org/wiki/SpongeBob_SquarePants_%28character%29#/media/File:SpongeBob_SquarePants_character.svg",
+      "storeCredit":50
+    }
+  ]
+}
