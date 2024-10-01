@@ -1,13 +1,13 @@
 {
-  "reviews":[
+  "reviews": [
     {
-      "id": 1,
-      "userName": "Juan",
+      "userName": "Diego",
       "profilePic": null,
-      "rating": 8,
-      "content": "muy bueno el juego",
+      "rating": 3,
+      "content": "okkkkkk",
       "screenshots": [],
-      "gameId": 3498
+      "gameId": 4291,
+      "id": 1
     },
     {
       "id": 2,
@@ -17,24 +17,83 @@
       "content": "malisimo, muchos rusos",
       "screenshots": [],
       "gameId": 4291
+    },
+    {
+      "userName": "Juan",
+      "profilePic": null,
+      "rating": 5,
+      "content": "uffffff muy bueno el juego",
+      "screenshots": [],
+      "gameId": 1,
+      "id": 3
+    },
+    {
+      "userName": "Juan",
+      "profilePic": null,
+      "rating": 1,
+      "content": "upesimo",
+      "screenshots": [],
+      "gameId": 1,
+      "id": 4
+    },
+    {
+      "userName": "haihdisarffff",
+      "rating": 5,
+      "content": "comentario muy chulo",
+      "gameId": 1,
+      "id": 5
+    },
+    {
+      "screenshots": [],
+      "rating": 5,
+      "content": "top",
+      "gameId": 1,
+      "userName": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "id": 6
+    },
+    {
+      "screenshots": [],
+      "rating": 2,
+      "content": "dewde",
+      "gameId": 1,
+      "userName": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "id": 8
+    },
+    {
+      "screenshots": [],
+      "rating": 5,
+      "content": "bueno",
+      "gameId": 3498,
+      "userName": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "id": 9
     }
   ],
-  "myGames":[
+  "myGames": [
     {
       "id": 1,
       "name": "Gran Theft Auto V",
       "cover": null,
       "gameId": 3498,
-      "platform": "PC", 
+      "platform": "PC",
       "isGameCompleted": false
+    },
+    {
+      "name": "Catch the snitch!",
+      "cover": null,
+      "platform": "PC",
+      "isGameCompleted": true,
+      "id": 2
     }
   ],
-  "profile":[
+  "profile": [
     {
-      "userId":123,
-      "user":"Bob_007",
-      "profilePic":"https://en.wikipedia.org/wiki/SpongeBob_SquarePants_%28character%29#/media/File:SpongeBob_SquarePants_character.svg",
-      "storeCredit":50
+      "userId": 123,
+      "user": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "storeCredit": 50
     }
   ]
 }
