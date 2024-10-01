@@ -5,7 +5,6 @@
       "profilePic": null,
       "rating": 3,
       "content": "okkkkkk",
-      "screenshots": [],
       "gameId": 4291,
       "id": 1
     },
@@ -15,7 +14,6 @@
       "profilePic": null,
       "rating": 3,
       "content": "malisimo, muchos rusos",
-      "screenshots": [],
       "gameId": 4291
     },
     {
@@ -23,7 +21,6 @@
       "profilePic": null,
       "rating": 5,
       "content": "uffffff muy bueno el juego",
-      "screenshots": [],
       "gameId": 1,
       "id": 3
     },
@@ -32,19 +29,10 @@
       "profilePic": null,
       "rating": 1,
       "content": "upesimo",
-      "screenshots": [],
       "gameId": 1,
       "id": 4
     },
     {
-      "userName": "haihdisarffff",
-      "rating": 5,
-      "content": "comentario muy chulo",
-      "gameId": 1,
-      "id": 5
-    },
-    {
-      "screenshots": [],
       "rating": 5,
       "content": "top",
       "gameId": 1,
@@ -64,28 +52,50 @@
     {
       "screenshots": [],
       "rating": 5,
-      "content": "bueno",
+      "content": "la leche",
+      "gameId": 4200,
+      "userName": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "id": 10
+    },
+    {
+      "screenshots": [],
+      "rating": 5,
+      "content": "bueno!!!",
       "gameId": 3498,
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
-      "id": 9
+      "id": 11
+    },
+    {
+      "screenshots": [],
+      "rating": 5,
+      "content": "ooooooo",
+      "gameId": 3498,
+      "userName": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "id": 12
     }
   ],
   "myGames": [
     {
       "id": 1,
       "name": "Gran Theft Auto V",
-      "cover": null,
+      "cover": "https://i.ytimg.com/vi/zTK2skwG4pw/maxresdefault.jpg",
       "gameId": 3498,
       "platform": "PC",
-      "isGameCompleted": false
+      "isGameCompleted": false,
+      "screenshots": [],
+      "hoursPlayed": 300
     },
     {
       "name": "Catch the snitch!",
       "cover": null,
       "platform": "PC",
       "isGameCompleted": true,
-      "id": 2
+      "screenshots": [],
+      "id": 2,
+      "hoursPlayed": 5
     }
   ],
   "profile": [
