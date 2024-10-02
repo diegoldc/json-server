@@ -1,54 +1,16 @@
 {
   "reviews": [
     {
-      "userName": "Diego",
-      "profilePic": null,
-      "rating": 3,
-      "content": "okkkkkk",
-      "gameId": 4291,
-      "id": 1,
-      "wouldRecommend": false,
-      "screenshots": []
-    },
-    {
-      "id": 2,
-      "userName": "Diego",
-      "profilePic": null,
-      "rating": 3,
-      "content": "malisimo, muchos rusos",
-      "gameId": 4291,
-      "wouldRecommend": false,
-      "screenshots": []
-    },
-    {
       "screenshots": [],
-      "userName": "Juan",
-      "profilePic": null,
-      "rating": 5,
-      "content": "uffffff muy bueno el juego",
-      "gameId": 1,
-      "id": 3,
-      "wouldRecommend": true
-    },
-    {
-      "screenshots": [],
-      "userName": "Juan",
-      "profilePic": null,
-      "rating": 1,
-      "content": "upesimo",
-      "gameId": 1,
-      "id": 4,
-      "wouldRecommend": false
-    },
-    {
-      "screenshots": [],
-      "rating": 5,
+      "rating": "4",
       "content": "top",
       "gameId": 1,
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
       "id": 6,
-      "wouldRecommend": false
+      "wouldRecommend": false,
+      "profileId": 123,
+      "gameName": "D/Generation HD"
     },
     {
       "screenshots": [],
@@ -58,7 +20,9 @@
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
       "id": 8,
-      "wouldRecommend": false
+      "wouldRecommend": false,
+      "profileId": 123,
+      "gameName": "D/Generation HD"
     },
     {
       "screenshots": [],
@@ -68,7 +32,9 @@
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
       "id": 10,
-      "wouldRecommend": true
+      "wouldRecommend": true,
+      "profileId": 123,
+      "gameName": "Portal 2"
     },
     {
       "screenshots": [],
@@ -78,17 +44,20 @@
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
       "id": 11,
-      "wouldRecommend": true
+      "wouldRecommend": true,
+      "profileId": 123,
+      "gameName": "Grand Theft Auto V"
     },
     {
       "screenshots": [],
-      "rating": 5,
-      "content": "ooooooo",
+      "rating": 2,
+      "content": "okkkk",
       "gameId": 3498,
+      "gameName": "Grand Theft Auto V",
+      "profileId": 123,
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
-      "id": 12,
-      "wouldRecommend": true
+      "id": 12
     }
   ],
   "myGames": [
@@ -141,11 +110,21 @@
       "screenshots": [],
       "hoursPlayed": "7",
       "id": 7
+    },
+    {
+      "name": "God of War (2018)",
+      "cover": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+      "gameId": "58175",
+      "platform": "PC",
+      "isGameCompleted": false,
+      "screenshots": [],
+      "hoursPlayed": "5",
+      "id": 8
     }
   ],
-  "profile": [
+  "profiles": [
     {
-      "userId": 123,
+      "id": 123,
       "user": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
       "storeCredit": 50
