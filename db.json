@@ -113,19 +113,14 @@
       "gameId": "4200",
       "platform": "PlayStation 3",
       "isGameCompleted": true,
-      "screenshots": [],
+      "screenshots": [
+        "https://images.kinguin.net/g/carousel-main-mobile/media/category/s/s/ss_8a772608d29ffd56ac013d2ac7c4388b96e87a21.800x600_1_1_1.jpg",
+        "https://i.guim.co.uk/img/static/sys-images/Technology/Pix/pictures/2011/4/15/1302883732465/Portal-2-007.jpg?width=465&dpr=1&s=none",
+        "https://i.blogs.es/04d5af/portal-2-analisis-004/650_1200.webp",
+        "https://i0.wp.com/www.printmag.com/wp-content/uploads/2011/06/2a34d8_e8cb9fbfea2c45ce9c6dc155d081ee2dmv2.jpg?fit=594%2C446&quality=89&ssl=1"
+      ],
       "hoursPlayed": 0,
       "id": 4
-    },
-    {
-      "name": "Left 4 Dead 2",
-      "cover": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
-      "gameId": "12020",
-      "platform": "PC",
-      "isGameCompleted": false,
-      "screenshots": [],
-      "hoursPlayed": "5",
-      "id": 5
     },
     {
       "name": "Borderlands 2",
