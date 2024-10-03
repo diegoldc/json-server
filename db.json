@@ -8,7 +8,7 @@
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
       "id": 6,
-      "wouldRecommend": false,
+      "wouldRecommend": true,
       "profileId": 123,
       "gameName": "D/Generation HD"
     },
@@ -57,38 +57,35 @@
       "profileId": 123,
       "userName": "Bob_007",
       "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
-      "id": 12
+      "id": 12,
+      "wouldRecommend": false
+    },
+    {
+      "screenshots": [],
+      "rating": 1,
+      "content": "malo",
+      "gameId": 3328,
+      "gameName": "The Witcher 3: Wild Hunt",
+      "profileId": 123,
+      "userName": "Bob_007",
+      "profilePic": "https://geekandchic.cl/wp-content/uploads/2024/07/bob.jpg",
+      "id": 13
     }
   ],
   "myGames": [
-    {
-      "name": "Gran Theft Auto V",
-      "cover": "https://i.ytimg.com/vi/zTK2skwG4pw/maxresdefault.jpg",
-      "gameId": 3498,
-      "platform": "PC",
-      "isGameCompleted": true,
-      "screenshots": [
-        "https://gaming-cdn.com/images/news/articles/8408/cover/1000x563/gta-v-ha-perdido-el-40-de-sus-jugadores-de-pc-tras-la-incorporacion-del-software-anticheats-cover66ec07995e010.jpg",
-        "https://signal.avg.com/hs-fs/hubfs/Blog_Content/Avg/Signal/AVG%20Signal%20Images/the_ultimate_gta_v_performance_guide_signal_refresh/image0.png?width=800&height=466&name=image0.png",
-        "https://i.blogs.es/3c7d9b/gta-v-2/450_1000.jpg",
-        "https://images.hgmsites.net/lrg/grand-theft-auto-v-gameplay_100432966_l.jpg"
-      ],
-      "hoursPlayed": 350,
-      "id": 1
-    },
     {
       "name": "Portal 2",
       "cover": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg",
       "gameId": "4200",
       "platform": "PlayStation 3",
-      "isGameCompleted": true,
+      "isGameCompleted": false,
       "screenshots": [
         "https://images.kinguin.net/g/carousel-main-mobile/media/category/s/s/ss_8a772608d29ffd56ac013d2ac7c4388b96e87a21.800x600_1_1_1.jpg",
         "https://i.guim.co.uk/img/static/sys-images/Technology/Pix/pictures/2011/4/15/1302883732465/Portal-2-007.jpg?width=465&dpr=1&s=none",
         "https://i.blogs.es/04d5af/portal-2-analisis-004/650_1200.webp",
         "https://i0.wp.com/www.printmag.com/wp-content/uploads/2011/06/2a34d8_e8cb9fbfea2c45ce9c6dc155d081ee2dmv2.jpg?fit=594%2C446&quality=89&ssl=1"
       ],
-      "hoursPlayed": 0,
+      "hoursPlayed": "3",
       "id": 4
     },
     {
@@ -120,6 +117,26 @@
       "screenshots": [],
       "hoursPlayed": "5",
       "id": 8
+    },
+    {
+      "name": "The Witcher 3: Wild Hunt",
+      "cover": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+      "gameId": "3328",
+      "platform": "PlayStation 5",
+      "isGameCompleted": true,
+      "screenshots": [],
+      "hoursPlayed": "20",
+      "id": 9
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "cover": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg",
+      "gameId": "3498",
+      "platform": "PC",
+      "isGameCompleted": false,
+      "screenshots": [],
+      "hoursPlayed": 0,
+      "id": 10
     }
   ],
   "profiles": [
