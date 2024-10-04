@@ -28,7 +28,14 @@ This repository is a [json-server](https://github.com/diegoldc/json-server) crea
 
 ```javascript
 {
-  name, cover, gameId, platform, isGameCompleted, screenshots, hoursPlayed, id;
+  name,
+  cover,
+  gameId,
+  platform,
+  isGameCompleted,
+  screenshots,
+  hoursPlayed,
+  id;
 }
 ```
 
@@ -36,7 +43,10 @@ This repository is a [json-server](https://github.com/diegoldc/json-server) crea
 
 ```javascript
 {
-  id, user, profilePic, storeCredit;
+  id, 
+  user, 
+  profilePic, 
+  storeCredit;
 }
 ```
 
@@ -46,18 +56,18 @@ This repository is a [json-server](https://github.com/diegoldc/json-server) crea
 | ----------- | -------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
 | GET         | `/reviews`           |                                                                                          | Sends all reviews                  |
 | GET         | `/reviews/?gameId`   |                                                                                          | Sends all reviews of selected game |
-| GET         | `/reviews/:reviewId` |                                                                                          | Sends selected review              |
-| GET         | `/myGames`           |                                                                                          | Sends all myGames                  |
-| GET         | `/myGames/:gameId`   |                                                                                          | Sends selected game                |
-| GET         | `/profile`           |                                                                                          | Sends profile                      |
 | GET         | `/reviews/?profileId`|                                                                                          | Sends all reviews made by user     |
+| GET         | `/reviews/:reviewId` |                                                                                          | Sends selected review              |
 | POST        | `/reviews`           | {rating, content, gameId, userName, profilePic, id, wouldRecommend, profileId, gameName} | Creates a new review               |
 | PATCH       | `/reviews/:reviewId` | {rating, content}                                                                        | Edits a review object              |
 | DELETE      | `/reviews/:reviewId` |                                                                                          | Deletes a review object            |
+| GET         | `/myGames`           |                                                                                          | Sends all myGames                  |
+| GET         | `/myGames/:gameId`   |                                                                                          | Sends selected game                |
 | POST        | `/myGames`           | {name, cover, gameId, platform, isGameCompleted, screenshots, hoursPlayed, id}           | Creates a new myGame               |
-| DELETE      | `/myGames/:myGameId` |                                                                                          | Deletes a myGame object            |
-| PATCH       | `/myGames/:myGameId` | {screenshots}                                                                            | Adds screenshots to myGame         |
 | PUT         | `/myGames/:myGameId` | {name, cover, gameId, platform, isGameCompleted, screenshots, hoursPlayed, id}           | Edits data from myGame             |
+| PATCH       | `/myGames/:myGameId` | {screenshots}                                                                            | Adds screenshots to myGame         |
+| DELETE      | `/myGames/:myGameId` |                                                                                          | Deletes a myGame object            |
+| GET         | `/profile`           |                                                                                          | Sends profile                      |
 
 
 
